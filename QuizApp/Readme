@@ -1,0 +1,20 @@
+# Navigate to the parent directory (W:\Java)
+cd W:\Java
+
+# Compile all files in the package
+javac QuizApp\*.java
+
+# Run using the full package name
+java QuizApp.Main
+
+--> Why This Works:
+
+1. Java looks for packages relative to the current directory
+2. When you're in Java and run javac QuizApp\*.java, Java understands that QuizApp is a package
+3. When you run java QuizApp.Main, Java finds the QuizApp package in the current directory and locates the Main class within it
+
+--> Key Points to Remember:
+
+1. Never compile individual files when using packages - always compile all related files together
+2. Always compile from the parent directory of your package structure
+3. Use the full package name when running the program (e.g., QuizApp.Main, not just Main)
