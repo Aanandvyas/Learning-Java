@@ -34,7 +34,7 @@ class Manager extends Employee {
 }
 
 
-public class Main {
+public class Poly {
     public static void main(String[] args) {
         // TODO: Create Employee and Manager objects
         // TODO: Print their details using getDetails()

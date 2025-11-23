@@ -1,0 +1,4 @@
+# How to run java file -
+
+--> javac FileName.java
+--> java FileName 
