@@ -1,6 +1,7 @@
 package Arrays;
 import java.lang.System;
 
+
 public class ArrayOperations {
     public static void main(String[] args) {
         int nums[] = {23,54,63,19,5};
@@ -28,6 +29,10 @@ public class ArrayOperations {
             newNums[i] = val;
             i++;
         }
+        var name = "vedanshi";
+        name = "anand";
         System.out.println(newNums[0]);
+
+        System.out.println(name);
     }
 }
